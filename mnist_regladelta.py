@@ -3,6 +3,7 @@
 Created on Sun Feb 22 17:12:48 2026
 
 @author: sofie
+Este código implementa la regla delta para clasificar imagenes del conjunto MNIST
 """
 
 import torch
