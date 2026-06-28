@@ -3,6 +3,7 @@
 Created on Sun Feb 22 18:28:06 2026
 
 @author: sofie
+Este código implementa la regla delta en dimensión 2
 """
 
 import matplotlib.pyplot as plt
