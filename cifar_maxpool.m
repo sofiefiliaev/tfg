@@ -1,3 +1,4 @@
+%este código realiza el experimento de selectividad usando la técnica de maxpool
 batch = load('cifar-10-batches-mat/data_batch_1.mat');
 n=2000; % escoger 2000 imagenes
 
