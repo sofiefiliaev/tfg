@@ -29,7 +29,7 @@ Ytest_final=double(Ytest_original==3);
 sigmoide=@(x) 1 ./ (1 + exp(-x));
 
 
-iteraciones = 200;
+epocas = 200;
 eta = 0.1; % tasa de aprendizaje
 
 
@@ -39,9 +39,9 @@ n = length(Y);
 
 
 
-hist_L = zeros(1, iteraciones);
-l_epoca = 1:iteraciones;
-for i=1:iteraciones
+hist_L = zeros(1, epocas);
+l_epoca = 1:epocas;
+for i=1:epocas
     
     
     z = (X * w') + b;     % (n x 1)
