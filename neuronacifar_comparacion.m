@@ -1,5 +1,5 @@
 
-%este codigo realiza el experimento de una neuronamselectivida usando
+%este codigo realiza el experimento de una neurona selectiva usando
 %estimulos principales distintos
 batch = load('cifar-10-batches-mat/data_batch_1.mat');
 n=2000; %escoger 2000 imagenes
